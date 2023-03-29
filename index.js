@@ -57,4 +57,4 @@ db.collection("products").doc("Tlv8X6KnPnTvvL47nHLe").get()
         const productList = collection.docs.map(doc =>({...doc.data(),id: doc.id}));
         console.table(productList);
     })
-    .catch(console.log);
+    .catch(console.log)
