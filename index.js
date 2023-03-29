@@ -58,7 +58,3 @@ db.collection("products").doc("Tlv8X6KnPnTvvL47nHLe").get()
         console.table(productList);
     })
     .catch(console.log);
-
-
-
-
